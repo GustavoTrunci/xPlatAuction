@@ -16,7 +16,7 @@ namespace xPlatAuction
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            Message.Text = "Lendo itens...";
+            Message.Text = "Lendo itens ...";
 
             MobileServiceClient client = new MobileServiceClient("http://localhost:57242/");
 
